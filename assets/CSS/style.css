@@ -13,6 +13,12 @@ body {
     color: var(--secondary-color);
     font-family: Verdana, Arial, sans-serif;
 }
+.section-title {
+    text-align: center;
+    border-bottom: 1px solid var(--secondary-color);
+    padding: 15px;
+
+}
 /* header styles*/
 header {
  background-image: url("../images/hero-img.jpg");
@@ -55,11 +61,11 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
     font-style: italic;
-    border: 2px solid var(--secondary-color);
-    background-color: rgba(180, 217, 117, 0.5);
+    border: 0 solid var(--secondary-color);
+    background-color: rgba(180, 217, 117, 1);
     border-radius: 25px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
 /* hero styles */
@@ -76,6 +82,53 @@ header nav ul li a {
 .hero-text {
     padding: 35px;
     margin: 300px;
-    
+}
+
+/* about styles */
+.about-me {
+    background: #ffe27a;
+}
+.about-me h2 {
+    color: var(--secondary-color);
+}
+.about-me img {
+    height: 300px;
+}
+.profile-img, .about-text {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
+}
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.about > * {
+    flex: 1;
+    margin: 15px 50px 15px 50px;
+}
+
+/* contact styles */
+
+.contact-me {
+    background: var(--tertiary-color);
+}
+/* footer styles */
+
+footer {
+    background: var(--tertiary-color);
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer h2 {
+    color: var(--secondary-color);
+    font-size: 30px;
+    margin: 0;
+    font-style: italic;
 }
 
